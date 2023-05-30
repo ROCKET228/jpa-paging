@@ -1,6 +1,5 @@
 package rocket.jpapaging.controller;
 
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import rocket.jpapaging.model.Person;
 import rocket.jpapaging.repository.PersonRepository;
 
-import java.util.List;
+
 
 @RestController
 @RequestMapping("/api/people")
